@@ -1,4 +1,6 @@
 import numpy as np
+
+# Part One
 map1 = []
 
 with open('AoC 2024 Day 6 Input.txt') as file:
