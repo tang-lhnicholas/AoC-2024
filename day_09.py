@@ -26,14 +26,4 @@ for i in range(len(data)):
 print(checksum)
 
 # Part Two
-while not ''.join(map(str, data)).isnumeric():
-    if data[-1] == '.': data.pop(-1)
-    else:
-        data[data.index('.')] = data[-1]
-        data.pop(-1)
 
-checksum = 0
-for i in range(len(data)):
-    checksum += i * data[i]
-
-print(checksum)
