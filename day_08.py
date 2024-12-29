@@ -1,7 +1,6 @@
 '''
-I used different methods to plot the antinodes in Part One and Part Two.
-
-For Part One, the method was to find the exact points given (i, j) and (i2, j2) and plot the antinodes accordingly,
+I used different methods to plot the antinodes in Part One and Part Two:
+for Part One, the method was to find the exact points given (i, j) and (i2, j2) and plot the antinodes accordingly,
 whereas for Part Two, I went through every point on the antinode map to see if it is in line with the two same-frequency antennas.
 The first method should run quicker, but the second method is easier to read and debug in my opinion.
 '''
