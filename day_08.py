@@ -61,7 +61,6 @@ for i in range(len(map1)):
 
                     for x in range(len(anti_map2)): # Go through every point in anti_map to see if it is in line with 1st and 2nd antenna
                         for y in range(len(anti_map2[0])):
-                            #if x!=i and x!=i2 and y!=j and y!=j2:
                             try:
                                 if (x-i)/(x-i2) == (y-j)/(y-j2):
                                     anti_map2[x][y] = '#'
