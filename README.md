@@ -11,7 +11,7 @@ Currently behind - but still going!
 `Day 06` - ★★<br>
 `Day 07` - ★★<br>
 `Day 08` - ★★<br>
-`Day 09` - ★<br>
+`Day 09` - ★★<br>
 `Day 10` - <br>
 `Day 11` - <br>
 `Day 12` - <br>
