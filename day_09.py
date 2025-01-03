@@ -26,6 +26,8 @@ print(checksum)
 
 
 # Part Two
+
+# Part Two
 data = []
 new_data = []
 
@@ -39,15 +41,16 @@ for i in range(len(disk_map)):
 
 
 for i in range(ID, -1, -1):
-    for x in data:
+    for x in data: 
         if x != []:
-            if x[0] == i:
-                for y in data:
+            if x[0] == i: # Locate file of ID in data
+                for y in data: # Iterate through the list from the left to find a free space that can fit the data
                     if y != []:
-                        if y[0] == '.' and len(y) >= len(x):
-                            free_space_length_to_create = len(y) - len(x)
-                            y[:], x[:] = x, ['.' for n in range(len(x))]
-                            data.insert(data.index(y)+1, ['.' for n in range(free_space_length_to_create)])
+                        if y[0] == '.' and len(y) >= len(x): 
+                            free_space_length_to_create = len(y) - len(x) 
+                            y[:], x[:] = x, ['.' for n in range(len(x))] # 'Move' the file to the free space by swapping the two...
+                            data.insert(data.index(y)+1, ['.' for n in range(free_space_length_to_create)]) # ... and adding back the free space remaining
+                            # e.g. 1...2233 -> 133.22..
                             break
                         
 
