@@ -1,6 +1,6 @@
 ## 🎄 Advent of Code 2024
-My solutions to [Advent of Code 2024](https://adventofcode.com/2024) programming puzzles.
-Currently behind - but still going!
+My first year participating in [Advent of Code](https://adventofcode.com/2024) puzzles.
+Currently behind, but still going!
 
 ## 📈 Progress
 `Day 01` - ★★<br>
